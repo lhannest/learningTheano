@@ -59,7 +59,7 @@ for i in range(5):
     plot(model, X, W0, W1, train_x, train_y, 'blue', 'training')
     plot(model, X, W0, W1, test_x, test_y, 'green', 'testing')
     plt.legend(loc='upper left')
-    plt.savefig('figure' + str(i) + '.jpg')
+    plt.savefig('images/figure' + str(i) + '.jpg')
     plt.close()
 
     for x, y in zip(train_x, train_y):
